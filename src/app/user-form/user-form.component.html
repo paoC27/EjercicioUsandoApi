@@ -1,0 +1,12 @@
+<form [formGroup]="userForm" class="user-form">
+    <label for="user-id">Id</label>
+    <input type="text" id="user-id" formControlName="id">
+
+    <label for="user-name">Nombre</label>
+    <input type="text" id="user-name" formControlName="name">
+
+    <label for="user-email">Email</label>
+    <input type="text" id="user-email" formControlName="email">
+
+    <button (click)='postUser()'>Crear Usuario</button>
+</form>

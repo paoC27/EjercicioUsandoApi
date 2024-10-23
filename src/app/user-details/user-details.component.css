@@ -1,0 +1,9 @@
+.user-details {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
